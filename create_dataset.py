@@ -2,8 +2,8 @@ import cv2
 import os
 import glob
 
-data_dir = "/home/alexlin/calib_challenge/labeled"
-img_dir = "/home/alexlin/calib_challenge/images_labeled"
+data_dir = "/home/alexlin/Developer/calib_challenge/labeled"
+img_dir = "/home/alexlin/Developer/calib_challenge/images_labeled"
 
 for idx, name in enumerate(sorted(glob.glob(data_dir + "/*.hevc"))):
     cap = cv2.VideoCapture(name)
